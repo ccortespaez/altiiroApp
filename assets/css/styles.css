@@ -1,3 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+  /* Definir variables en CSS */
+  --bg-yellow: #FFDF33;
+  --bg-black: #000000;
+  --bg-white: #FFFFFF
+}
+
+.bg-yellow{
+  background-color: var(--bg-yellow);
+  
+}
+.bg-black{
+  background-color: var(--bg-black);
+  color:var(--bg-yellow);
+}
+.bg-white{
+  background-color: var(--bg-white);
+}
+
+.text-yellow{
+  color:var(--bg-yellow);
+}
+.text-black{
+  color:var(--bg-black);
+}
+.text-white{
+  color:var(--bg-white);
+}
+
 .carousel-inner {
   width:100%;
   height: 100%;
@@ -7,3 +41,4 @@
   background-color:#000000;
   color: #FFDF33;
 }
+
