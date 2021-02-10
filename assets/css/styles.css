@@ -12,6 +12,7 @@ body{
 
 .bg-yellow{
   background-color: var(--bg-yellow);
+  color:var(--bg-black);
   
 }
 .bg-black{
@@ -20,6 +21,7 @@ body{
 }
 .bg-white{
   background-color: var(--bg-white);
+  color:var(--bg-black);
 }
 
 .text-yellow{
