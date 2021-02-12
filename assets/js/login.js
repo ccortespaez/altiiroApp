@@ -10,6 +10,7 @@ function loginUser(){
         .then(userCredential =>{
             alert('Usuario logeado')
         })
+        .catch(error => console.error(error));
     });
 }
 
